@@ -24,6 +24,7 @@ console.log(`\n${res}`);  //[2,4,6,8,10]
 //4: Filter Even Numbers
 const filter=nums.filter(num=>num%2===0);
 console.log(`\n${filter}`);  //[2,4]
+//Edge case: filtering an empty array [] returns []
 
 
 //5:Function with default parameter
@@ -67,6 +68,7 @@ counter();//3
 const arr=[1,2,2,3,3,3,4,5];
 const unique=[...new Set(arr)]
 console.log(`\n${unique}\n`)  //[1,2,3,4,5]
+// removing duplicates from an already unique array leaves it unchanged
 
 
 //10:  String reverse
